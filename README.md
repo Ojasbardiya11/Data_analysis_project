@@ -33,7 +33,7 @@
         
 * The steps to install Jupyter notebook can be downloaded from here: https://jupyter.org/install
 
-### Deescription ###
+### Description ###
 Aim: Use available data to evaluate customers into Promoters, Passives or Detractors by modelling a score analogous to NPS (Net Promoter Score)
 
 Both basic and advanced data insights are provided with the available data to better understand customer performance across various parameters.
