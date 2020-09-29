@@ -55,5 +55,9 @@ Download as .py file and run the following on the command line
 
 We use pandas, numpy, and sklearn in Python 3.7 to generate-
 * A Random Forest classifier in order to determine mushrooms as poisonous or edible with 99.01% accuracy.
-* A Logisitic Regression Model that predicts whether mushrooms are poisonous or edible with 94.49% accuracy.
+* A Logisitic Regression Model that predicts whether mushrooms are poisonous or edible with 94.91% accuracy.
 
+### Input ###
+* Bengaluru_House_Data.csv
+  
+  The main dataset is available at https://www.kaggle.com/uciml/mushroom-classification
