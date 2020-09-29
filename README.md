@@ -1,4 +1,4 @@
-# Ref_score_project
+# Data_modelling_work
 
 ### Setup ###
 
@@ -33,7 +33,7 @@
         
 * The steps to install Jupyter notebook can be downloaded from here: https://jupyter.org/install
 
-### Description ###
+### Description - Ref_Score ###
 Aim: Use available data to evaluate customers into Promoters, Passives or Detractors by modelling a score analogous to NPS (Net Promoter Score)
 
 Both basic and advanced data insights are provided with the available data to better understand customer performance across various parameters.
@@ -50,3 +50,7 @@ Taking the model which provides the highest accuracy, we then use that to evalua
 Download as .py file and run the following on the command line
             
     python Ref_score.py
+    
+### Description - Mushroom_Classification ###
+
+We use pandas, numpy, and sklearn in Python 3.7 to create a K-neighbors classification algorithm model to classify mushrooms as poisonous or edible.
