@@ -53,4 +53,7 @@ Download as .py file and run the following on the command line
     
 ### Description - Mushroom_Classification ###
 
-We use pandas, numpy, and sklearn in Python 3.7 to create a K-neighbors classification algorithm model to classify mushrooms as poisonous or edible.
+We use pandas, numpy, and sklearn in Python 3.7 to generate-
+* A Random Forest classifier in order to determine mushrooms as poisonous or edible with 99.01% accuracy.
+* A Logisitic Regression Model that predicts whether mushrooms are poisonous or edible with 94.49% accuracy.
+
