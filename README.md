@@ -33,9 +33,11 @@
         
 * The steps to install Jupyter notebook can be downloaded from here: https://jupyter.org/install
 
-## Description - Ref_Score ##
-Aim: Use available data to evaluate customers into Promoters, Passives or Detractors by modelling a score analogous to NPS (Net Promoter Score)
+## Ref_Score ##
 
+### Description ###
+
+Use available data to evaluate customers into Promoters, Passives or Detractors by modelling a score analogous to NPS (Net Promoter Score)
 Both basic and advanced data insights are provided with the available data to better understand customer performance across various parameters.
 
 We generate the Ref Score using the following models-
@@ -51,7 +53,9 @@ Download as .py file and run the following on the command line
             
     python Ref_score.py
     
-## Description - Mushroom_Classification ##
+## Mushroom_Classification ##
+
+### Description ###
 
 We use pandas, numpy, and sklearn in Python 3.7 to generate-
 * A Random Forest classifier in order to determine mushrooms as poisonous or edible with 99.01% accuracy.
