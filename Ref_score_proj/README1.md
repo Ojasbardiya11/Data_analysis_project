@@ -1,6 +1,6 @@
-# Data_modelling_work
+# Ref_Score
 
-### Setup ###
+## Setup ##
 
 * Windows
 
@@ -33,9 +33,11 @@
         
 * The steps to install Jupyter notebook can be downloaded from here: https://jupyter.org/install
 
-## Ref_Score ##
+* Conda install 
+     * Steps to install anaconda can be found here https://docs.anaconda.com/anaconda/install/
 
-### Description ###
+
+## Description ##
 
 Use available data to evaluate customers into Promoters, Passives or Detractors by modelling a score analogous to NPS (Net Promoter Score)
 Both basic and advanced data insights are provided with the available data to better understand customer performance across various parameters.
@@ -47,27 +49,10 @@ We generate the Ref Score using the following models-
 
 Taking the model which provides the highest accuracy, we then use that to evaluate other customers and classify them accordingly.
 
+Using matplotlib and pandas, we also plot the change in Ref Score for a particular client on a monthly basis. From this we are able to visualize a trend in the Ref Score for all customers.
+
 ### Command to Run ###
 
 Download as .py file and run the following on the command line
             
     python Ref_score.py
-    
-## Mushroom_Classification ##
-
-### Description ###
-
-We use pandas, numpy, and sklearn in Python 3.7 to generate-
-* A Random Forest classifier in order to determine mushrooms as poisonous or edible with 99.01% accuracy.
-* A Logisitic Regression Model that predicts whether mushrooms are poisonous or edible with 94.91% accuracy.
-
-### Input ###
-* datasets_478_974_mushrooms.csv.csv
-  
-  The main dataset is available at https://www.kaggle.com/uciml/mushroom-classification
-  
-### Command to Run ###
-
-Download as .py file and run the following on the command line
-            
-    python Mushroom_classification.py  
